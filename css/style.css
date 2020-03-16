@@ -3237,7 +3237,7 @@ img {
 
 .download-app .text span {
     position: relative;
-    color: #ffffff;
+    color: #000;
     font-size: 12px;
     margin-left: 30px;
 }
@@ -3265,7 +3265,7 @@ img {
 }
 
 .download-app h1 {
-    color: #fff;
+    color: #000;
     font-size: 48px;
     font-weight: 300;
     line-height: 50px;
@@ -3274,7 +3274,7 @@ img {
 }
 
 .download-app .text {
-    color: #fff;
+    color: #000;
 }
 
 .download-app .link-btn {
