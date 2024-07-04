@@ -1,294 +1,515 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Tech Solutons</title>
-    <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
-    <!-- REVOLUTION SETTINGS STYLES -->
-    <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
-    <!-- REVOLUTION LAYERS STYLES -->
-    <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
-    <!-- REVOLUTION NAVIGATION STYLES -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <title>Tech Solutons</title>
+        <!-- Stylesheets -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="plugins/revolution/css/settings.css" rel="stylesheet"
+            type="text/css">
+        <!-- REVOLUTION SETTINGS STYLES -->
+        <link href="plugins/revolution/css/layers.css" rel="stylesheet"
+            type="text/css">
+        <!-- REVOLUTION LAYERS STYLES -->
+        <link href="plugins/revolution/css/navigation.css" rel="stylesheet"
+            type="text/css">
+        <!-- REVOLUTION NAVIGATION STYLES -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
 
-    <!--Color Themes-->
-    <link href="css/color-themes/red-theme.css" rel="stylesheet">
+        <!--Color Themes-->
+        <link href="css/color-themes/red-theme.css" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet">
 
-    <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-</head>
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <!-- Responsive -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    </head>
 
-<body>
-    <div class="page-wrapper">
+    <body>
+        <div class="page-wrapper">
 
-        <!-- Preloader -->
-        <div class="preloader">
-            <div class="loader">
-                <div class="loader-inner box-1"></div>
-                <div class="loader-inner box-2"></div>
-                <div class="loader-inner box-3"></div>
+            <div id="home"></div>
+            <!-- Navigation -->
+            <div class="main-menu">
+                <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+                    <div class="container">
+                        <div class="flex-box-one">
+                            <a class="navbar-brand js-scroll-trigger"
+                                href="index.html"><img src="images/logo.png"
+                                    alt></a>
+                            <button class="navbar-toggler" type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarResponsive"
+                                aria-controls="navbarResponsive"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse"
+                                id="navbarResponsive">
+                                <ul class="navbar-nav">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link js-scroll-trigger"
+                                            href="#features">POS Systems</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link js-scroll-trigger"
+                                            href="#about">Credit Cards</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link js-scroll-trigger"
+                                            href="#screenshots">Gift Cards</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link js-scroll-trigger"
+                                            href="#pricing">CCTV Cameras</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="outer-box">
+                                <a href="tel:+13468135029"
+                                    class="theme-btn btn-style-two">CALL</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
             </div>
-        </div>
 
-        <div id="home"></div>
-        <!-- Navigation -->
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
-                <div class="container">
-                    <div class="flex-box-one">
-                        <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="images/logo.png" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                        <div class="collapse navbar-collapse" id="navbarResponsive">
-                            <ul class="navbar-nav">
+            <!--Main Slider-->
+            <section class="main-slider theme-bg bg-shape">
 
-                                <li class="nav-item">
-                                    <a class="nav-link js-scroll-trigger" href="#features">POS Systems</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link js-scroll-trigger" href="#about">Credit Cards</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link js-scroll-trigger" href="#screenshots">Gift Cards</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link js-scroll-trigger" href="#pricing">Camaras</a>
-                                </li>
+                <div class="rev_slider_wrapper fullwidthbanner-container"
+                    id="rev_slider_one_wrapper" data-source="gallery">
+                    <div class="rev_slider fullwidthabanner" id="rev_slider_one"
+                        data-version="5.4.1">
+                        <ul>
 
+                            <li data-description="Slide Description"
+                                data-easein="default" data-easeout="default"
+                                data-fsmasterspeed="1500" data-fsslotamount="7"
+                                data-fstransition="fade" data-hideafterloop="0"
+                                data-hideslideonmobile="off"
+                                data-index="rs-1687" data-masterspeed="default"
+                                data-param1 data-param10 data-param2 data-param3
+                                data-param4 data-param5 data-param6 data-param7
+                                data-param8 data-param9 data-rotate="0"
+                                data-saveperformance="off"
+                                data-slotamount="default"
+                                data-thumb="images/main-slider/image-1.png"
+                                data-title="Slide Title" data-transition="fade">
 
-                            </ul>
-                        </div>
-                        <div class="outer-box">
-                            <a href="tel:+13468135029" class="theme-btn btn-style-two">Llamar</a>
-                        </div>
-                    </div>
-
-                </div>
-            </nav>
-        </div>
-
-
-        <!--Main Slider-->
-        <section class="main-slider theme-bg bg-shape">
-
-
-
-            <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
-                <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
-                    <ul>
-
-                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default"
-                            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.png"
-                            data-title="Slide Title" data-transition="fade">
-
-
-                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['650','750','700','420']" data-whitespace="normal"
-                                data-hoffset="['15','15','15','15']" data-voffset="['-100','-100','-100','-120']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <h2 class="white-heading">Sistema POS <br>Camaleon</h2>
-                            </div>
-
-                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['650','600','450','420']" data-whitespace="normal"
-                                data-hoffset="['15','15','15','15']" data-voffset="['35','40','25','-10']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <div class="text light">El mejor sistema de Punto de Venta totalmente adaptable a sus necesidades. Para restaurantes y bares, supermercados y comercios.
+                                <div class="tp-caption"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['650','750','700','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['-100','-100','-100','-120']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <h2 class="white-heading">Camaleon <br>Point
+                                        of Sale</h2>
                                 </div>
-                            </div>
 
-                            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','650','420']"
-                                data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['145','150','150','100']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"
-                                data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <a href="#features" class="theme-btn btn-style-eight">Conoce Mas</a>
-                                <!-- <a href="services.html" class="theme-btn btn-style-two with-gradient">How it works</a> -->
-                            </div>
-
-                            <!-- LAYER NR. 6 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2957-layer-7" data-x="['right','right','right','right']" data-hoffset="['-250','-50','0','180']" data-y="['top','top','top','top']" data-voffset="['200','200','280','500']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1950,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;border-width:0px;"><img src="images/resource/pos.png" alt="" data-ww="['657px','500px','300px','200px']" data-hh="['602px','550px','275px','200px']" width="657" height="602" data-no-retina> </div>
-
-                        </li>
-
-                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default"
-                            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-2.png"
-                            data-title="Slide Title" data-transition="fade">
-
-
-                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['650','750','700','420']" data-whitespace="normal"
-                                data-hoffset="['15','15','15','15']" data-voffset="['-100','-100','-100','-120']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <h2 class="white-heading">Integración <br> EMV</h2>
-                            </div>
-
-                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['650','600','450','420']" data-whitespace="normal"
-                                data-hoffset="['15','15','15','15']" data-voffset="['35','40','25','-10']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <div class="text light">Servicios comerciales electrónicos – apoye la tarjeta más créditos y reduzca los errores humanos.
+                                <div class="tp-caption"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['650','600','450','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['35','40','25','-10']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <div class="text light">The best Point of
+                                        Sale system fully adaptable to your
+                                        needs. Suitable for restaurants and
+                                        bars, supermarkets, and retail stores.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','650','420']"
-                                data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['145','150','150','100']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"
-                                data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <a href="services.html" class="theme-btn btn-style-eight">Learn more</a>
-                                <!-- <a href="services.html" class="theme-btn btn-style-two with-gradient">How it works</a> -->
-                            </div>
-
-                            <!-- LAYER NR. 6 -->
-                            <div class="tp-caption tp-resizeme r`s-parallaxlevel-3" id="slide-2957-layer-6" data-x="['right','right','right','right']" data-hoffset="['-250','-50','0','180']" data-y="['top','top','top','top']" data-voffset="['200','200','280','500']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1950,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;border-width:0px;"><img src="images/resource/emv.png" alt="" data-ww="['657px','500px','300px','200px']" data-hh="['602px','550px','275px','200px']" width="657" height="602" data-no-retina> </div>
-
-                        </li>
-
-                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default"
-                            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-3.png"
-                            data-title="Slide Title" data-transition="fade">
-
-
-                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['650','750','700','420']" data-whitespace="normal"
-                                data-hoffset="['15','15','15','15']" data-voffset="['-100','-100','-100','-120']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <h2 class="white-heading">Soporte para <br> clientes</h2>
-                            </div>
-
-                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['650','600','450','420']" data-whitespace="normal"
-                                data-hoffset="['15','15','15','15']" data-voffset="['35','40','25','-10']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <div class="text light">Siéntase seguro acerca de su negocio, tenemos 24/7 apoyo por teléfono o chat
+                                <div class="tp-caption tp-resizeme"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['550','600','650','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['145','150','150','100']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <a href="#features"
+                                        class="theme-btn btn-style-eight">Learn
+                                        More</a>
+                                    <!-- <a href="services.html" class="theme-btn btn-style-two with-gradient">How it works</a> -->
                                 </div>
-                            </div>
 
-                            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','650','420']"
-                                data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['145','150','150','100']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"
-                                data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                                style="z-index: 7; white-space: nowrap;">
-                                <a href="services.html" class="theme-btn btn-style-eight">Learn more</a>
-                                <a href="services.html" class="theme-btn btn-style-two with-gradient">How it works</a>
-                            </div>
+                                <!-- LAYER NR. 6 -->
+                                <div
+                                    class="tp-caption   tp-resizeme rs-parallaxlevel-3"
+                                    id="slide-2957-layer-7"
+                                    data-x="['right','right','right','right']"
+                                    data-hoffset="['-250','-50','0','180']"
+                                    data-y="['top','top','top','top']"
+                                    data-voffset="['200','200','280','500']"
+                                    data-width="none"
+                                    data-height="none" data-whitespace="nowrap"
+                                    data-type="image"
+                                    data-responsive_offset="on"
+                                    data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1950,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                                    data-textAlign="['left','left','left','left']"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    style="z-index: 10;border-width:0px;"><img
+                                        src="images/resource/pos.png" alt
+                                        data-ww="['657px','500px','300px','200px']"
+                                        data-hh="['602px','550px','275px','200px']"
+                                        width="657" height="602" data-no-retina>
+                                </div>
 
-                            <!-- LAYER NR. 6 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2957-layer-8" data-x="['right','right','right','right']" data-hoffset="['-250','-50','0','180']" data-y="['top','top','top','top']" data-voffset="['200','200','280','500']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1950,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;border-width:0px;"><img src="images/main-slider/mockup-1.png" alt="" data-ww="['657px','500px','300px','200px']" data-hh="['602px','550px','275px','200px']" width="657" height="602" data-no-retina> </div>
+                            </li>
 
-                        </li>
+                            <li data-description="Slide Description"
+                                data-easein="default" data-easeout="default"
+                                data-fsmasterspeed="1500" data-fsslotamount="7"
+                                data-fstransition="fade" data-hideafterloop="0"
+                                data-hideslideonmobile="off"
+                                data-index="rs-1688" data-masterspeed="default"
+                                data-param1 data-param10 data-param2 data-param3
+                                data-param4 data-param5 data-param6 data-param7
+                                data-param8 data-param9 data-rotate="0"
+                                data-saveperformance="off"
+                                data-slotamount="default"
+                                data-thumb="images/main-slider/image-2.png"
+                                data-title="Slide Title" data-transition="fade">
 
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!--End Main Slider-->
+                                <div class="tp-caption"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['650','750','700','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['-100','-100','-100','-120']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <h2 class="white-heading">EMV <br>
+                                        Integration</h2>
+                                </div>
 
+                                <div class="tp-caption"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['650','600','450','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['35','40','25','-10']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <div class="text light">EMV –  support card payments and reduce human errors.
+                                    </div>
+                                </div>
 
+                                <div class="tp-caption tp-resizeme"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['550','600','650','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['145','150','150','100']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <a href="services.html"
+                                        class="theme-btn btn-style-eight">Learn
+                                        more</a>
+                                    <!-- <a href="services.html" class="theme-btn btn-style-two with-gradient">How it works</a> -->
+                                </div>
 
-        <!-- about -->
-        <section id="about" class="about-us sp-one">
-            <div class="container">
-                <div class="sec-title">
-                    <div class="text">Todo negocio necesita de un sistema confiable</div>
-                    <h1>Camaleon POS</h1>
-                </div>
-                <div class="row">
-                    <div class="services-block-three col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner">
-                            <div class="icon-box"><span class="icon flaticon-painter-palette"></span></div>
-                            <div class="text">Restaurante & bar</div>
-                        </div>
-                    </div>
-                    <div class="services-block-three col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner">
-                            <div class="icon-box"><span class="icon flaticon-programming-code-signs"></span></div>
-                            <div class="text">Abarrotes y comercios</div>
-                        </div>
-                    </div>
-                    <div class="services-block-three col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner">
-                            <div class="icon-box"><span class="icon flaticon-ruler"></span></div>
-                            <div class="text">Soluciones móviles</div>
-                        </div>
-                    </div>
-                    <div class="services-block-three col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner">
-                            <div class="icon-box"><span class="icon flaticon-review"></span></div>
-                            <div class="text">Integración de EMV</div>
-                        </div>
-                    </div>
+                                <!-- LAYER NR. 6 -->
+                                <div
+                                    class="tp-caption tp-resizeme r`s-parallaxlevel-3"
+                                    id="slide-2957-layer-6"
+                                    data-x="['right','right','right','right']"
+                                    data-hoffset="['-250','-50','0','180']"
+                                    data-y="['top','top','top','top']"
+                                    data-voffset="['200','200','280','500']"
+                                    data-width="none"
+                                    data-height="none" data-whitespace="nowrap"
+                                    data-type="image"
+                                    data-responsive_offset="on"
+                                    data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1950,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                                    data-textAlign="['left','left','left','left']"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    style="z-index: 10;border-width:0px;"><img
+                                        src="images/resource/emv.png" alt
+                                        data-ww="['657px','500px','300px','200px']"
+                                        data-hh="['602px','550px','275px','200px']"
+                                        width="657" height="602" data-no-retina>
+                                </div>
 
-                </div>
-                <div class="row">
-                    <div class="col-lg-7 col-md-12">
-                        <div class="text">El mejor sistema de TPV totalmente adaptable a sus necesidades. Para restaurantes y bares, supermercados y comercios.</div><br>
-                        <ul class="list-style-four">
-                            <li>Vulputate aliquet condimentum sapien duis</li>
-                            <li>Vulputate aliquet condimentum sapien duis</li>
-                            <li>Vulputate aliquet condimentum sapien duis</li>
-                            <li>Vulputate aliquet condimentum sapien duis</li>
-                            <li>Vulputate aliquet condimentum sapien duis</li>
-                            <li>Vulputate aliquet condimentum sapien duis</li>
-                            <li>Vulputate aliquet condimentum sapien duis</li>
+                            </li>
+
+                            <li data-description="Slide Description"
+                                data-easein="default" data-easeout="default"
+                                data-fsmasterspeed="1500" data-fsslotamount="7"
+                                data-fstransition="fade" data-hideafterloop="0"
+                                data-hideslideonmobile="off"
+                                data-index="rs-1689" data-masterspeed="default"
+                                data-param1 data-param10 data-param2 data-param3
+                                data-param4 data-param5 data-param6 data-param7
+                                data-param8 data-param9 data-rotate="0"
+                                data-saveperformance="off"
+                                data-slotamount="default"
+                                data-thumb="images/main-slider/image-3.png"
+                                data-title="Slide Title" data-transition="fade">
+
+                                <div class="tp-caption"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['650','750','700','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['-100','-100','-100','-120']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <h2 class="white-heading">Customer <br>
+                                        Service</h2>
+                                </div>
+
+                                <div class="tp-caption"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['650','600','450','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['35','40','25','-10']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <div class="text light">Feel confident
+                                        about your business, we offer 24/7 support
+                                        by phone or chat
+                                    </div>
+                                </div>
+
+                                <div class="tp-caption tp-resizeme"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-responsive_offset="on" data-type="text"
+                                    data-height="none"
+                                    data-width="['550','600','650','420']"
+                                    data-whitespace="normal"
+                                    data-hoffset="['15','15','15','15']"
+                                    data-voffset="['145','150','150','100']"
+                                    data-x="['left','left','left','left']"
+                                    data-y="['middle','middle','middle','middle']"
+                                    data-textalign="['top','top','top','top']"
+                                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                    style="z-index: 7; white-space: nowrap;">
+                                    <a href="services.html"
+                                        class="theme-btn btn-style-eight">Learn
+                                        more</a>
+                                    <a href="services.html"
+                                        class="theme-btn btn-style-two with-gradient">How
+                                        it works</a>
+                                </div>
+
+                                <!-- LAYER NR. 6 -->
+                                <div
+                                    class="tp-caption   tp-resizeme rs-parallaxlevel-3"
+                                    id="slide-2957-layer-8"
+                                    data-x="['right','right','right','right']"
+                                    data-hoffset="['-250','-50','0','180']"
+                                    data-y="['top','top','top','top']"
+                                    data-voffset="['200','200','280','500']"
+                                    data-width="none"
+                                    data-height="none" data-whitespace="nowrap"
+                                    data-type="image"
+                                    data-responsive_offset="on"
+                                    data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1950,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                                    data-textAlign="['left','left','left','left']"
+                                    data-paddingtop="[0,0,0,0]"
+                                    data-paddingright="[0,0,0,0]"
+                                    data-paddingbottom="[0,0,0,0]"
+                                    data-paddingleft="[0,0,0,0]"
+                                    style="z-index: 10;border-width:0px;"><img
+                                        src="images/main-slider/mockup-1.png"
+                                        alt
+                                        data-ww="['657px','500px','300px','200px']"
+                                        data-hh="['602px','550px','275px','200px']"
+                                        width="657" height="602" data-no-retina>
+                                </div>
+
+                            </li>
 
                         </ul>
+                    </div>
+                </div>
+            </section>
+            <!--End Main Slider-->
+
+            <!-- about -->
+            <section id="about" class="about-us sp-one">
+                <div class="container">
+                    <div class="sec-title">
+                        <div class="text">Every business needs a reliable system</div>
+                        <h1>Camaleon POS</h1>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="services-block-three col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="icon-box"><span
+                                        class="icon flaticon-painter-palette"></span></div>
+                                <div class="text">Restaurant & Bar</div>
+                            </div>
+                        </div>
+                        <div
+                            class="services-block-three col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="icon-box"><span
+                                        class="icon flaticon-programming-code-signs"></span></div>
+                                <div class="text">Grocery stores and Retail shops</div>
+                            </div>
+                        </div>
 
                     </div>
-                    <div class="col-lg-5 col-md-12">
-                        <div class="mockup-one">
-                            <div class="image-box">
-                                <img src="images/resource/mockup-1.png" alt="">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12">
+                            <div class="text">The best POS system fully adaptable to your needs. Suitable for restaurants and bars, supermarkets, and retail stores. A point of sale (POS) system is an essential tool for managing sales, inventories, and transactions efficiently, enhancing customer experience, and optimizing business operations.</div><br>
+                            <ul class="list-style-four">
+                                <li>Optimizes inventory management and reduces losses</li>
+                                <li>Facilitates quick and secure transactions</li>
+                                <li>Generates detailed reports for informed decision-making</li>
+                                <li>Improves customer experience with faster service</li>
+                                <li>Reduces human errors in transactions</li>
+                                <li>Allows integration with electronic payment systems</li>
+                                <li>Offers 24/7 support to resolve any issues</li>
+                            </ul>
+
+
+                        </div>
+                        <div class="col-lg-5 col-md-12">
+                            <div class="mockup-one">
+                                <div class="image-box">
+                                    <img src="images/resource/mockup-1.png" alt>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
+            </section>
 
-            </div>
-        </section>
-
-
-        <!-- video section -->
-        <section class="video-section sp-one theme-bg bg-shape">
-            <div class="container">
-                <div class="video-column">
-                    <!--video-box-->
-                    <div class="video-image-box">
-                        <figure class="image">
-                            <a href="https://www.facebook.com/facebook/videos/10153231379946729/" class="overlay-link lightbox-image video-fancybox"><span class="fa fa-youtube-play"></span></a>
-                        </figure>
-                    </div>
-                    <h1>Watch The <br>Video</h1>
-                    <div class="text">Kitchen Display Integration</div>
-                    <div class="mockup-three">
-                        <div class="image-box"><img src="images/resource/wach.png" alt=""></div>
+            <!-- video section -->
+            <section class="video-section sp-one theme-bg bg-shape">
+                <div class="container">
+                    <div class="video-column">
+                        <!--video-box-->
+                        <div class="video-image-box">
+                            <figure class="image">
+                                <a
+                                    href="https://www.facebook.com/facebook/videos/10153231379946729/"
+                                    class="overlay-link lightbox-image video-fancybox"><span
+                                        class="fa fa-youtube-play"></span></a>
+                            </figure>
+                        </div>
+                        <h1>Watch The <br>Video</h1>
+                        <div class="text">Kitchen Display Integration</div>
+                        <div class="mockup-three">
+                            <div class="image-box"><img
+                                    src="images/resource/wach.png" alt></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- services -->
-        <section class="services sp-one  ">
+           <!-- services -->
+           <section class="services sp-one  ">
             <div class="container">
                 <div class="sec-title center">
-                    <span>Tech Solutons</span>
-                    <h1>Procesamiento de Credit Cards</h1>
-                    <div class="text">Hoy en dia es necesario</div>
+                    <span>Tech Solutions</span>
+                    <h1>Credit Card Processing</h1>
+                    <div class="text">Nowadays it is necessary</div>
                 </div>
                 <div class="row">
                     <div class="col-lg-5 col-md-12">
                         <div class="mockup-two">
                             <div class="image-box">
-                                <img src="images/resource/mockup-2.png" alt="" style="width: -webkit-fill-available;">
+                                <img src="images/resource/mockup-2.png" alt
+                                    style="width: -webkit-fill-available;">
                             </div>
                         </div>
                     </div>
@@ -296,26 +517,29 @@
 
                         <div class="services-block-two">
                             <div class="inner-box">
-                                <h4>El porcentaje mas barato del mercado</h4>
-                                <div class="text">Pharetra pulvinar acumsan neque uisque diam velit risus aenean <br>nostra nullam purus aorem ipsum dolor sit amet.</div>
+                                <h4>The lowest percentage in the market</h4>
+                                <div class="text">Pharetra pulvinar acumsan
+                                    neque uisque diam velit risus aenean
+                                    <br>nostra nullam purus aorem ipsum
+                                    dolor sit amet.</div>
                             </div>
                         </div>
                         <div class="services-block-two">
                             <div class="inner-box">
-                                <h4>Más ventas</h4>
-                                <div class="text">El gasto en plástico es ahora el pago de la elección por los clientes en todas partes. Es un hecho. Las empresas que aceptan tarjetas de crédito y débito experimentan ventas mucho más altas.</div>
+                                <h4>More sales</h4>
+                                <div class="text">Spending on plastic is now the payment choice for customers everywhere. It is a fact. Businesses that accept credit and debit cards experience much higher sales.</div>
                             </div>
                         </div>
                         <div class="services-block-two">
                             <div class="inner-box">
-                                <h4>Error humano reducido</h4>
-                                <div class="text">Si su empleado tiene que procesar el pago en un terminal separado esto toma más tiempo y eso puede dar lugar a errores, informes inexactos y pérdida financiera.</div>
+                                <h4>Reduced human error</h4>
+                                <div class="text">If your employee has to process the payment on a separate terminal, this takes more time and can result in errors, inaccurate reports, and financial loss.</div>
                             </div>
                         </div>
                         <div class="services-block-two">
                             <div class="inner-box">
-                                <h4>Ahorro de tiempo</h4>
-                                <div class="text">Con el procesamiento de tarjetas de crédito integrados en su sistema de TPV, puede esperar pasar menos tiempo en reconciliar cualquier problema relacionado con la tarjeta de crédito.</div>
+                                <h4>Time-saving</h4>
+                                <div class="text">With integrated credit card processing in your POS system, you can expect to spend less time reconciling any credit card-related issues.</div>
                             </div>
                         </div>
                     </div>
@@ -325,256 +549,280 @@
         </section>
 
 
+            <!-- call to action -->
+            <section class="call-to-action theme-bg bg-shape sp-one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                            <div class="action-text">
+                                <div class="text">Security for your business</div>
+                                <h1>We Provide  <br> Professional Installations of <br> CCTV Cameras</h1>
 
-
-
-
-
-        <!-- call to action -->
-        <section class="call-to-action theme-bg bg-shape sp-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12">
-                        <div class="action-text">
-                            <div class="text">Seguridad a tu negocio</div>
-                            <h1>Hacemos Instalaciones Profesionales<br>de Camaras de Circuito Cerrado </h1>
-                            <!-- <div class="link"><a href="#" class="theme-btn btn-style-two with-gradient">How It Works</a></div> -->
+                                <!-- <div class="link"><a href="#" class="theme-btn btn-style-two with-gradient">How It Works</a></div> -->
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="mockup-four">
-                            <div class="image"><img src="images/resource/mockup-3.png" alt=""></div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="mockup-four">
+                                <div class="image"><img
+                                        src="images/resource/mockup-3.png"
+                                        alt></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <!-- feature section -->
+            <section id="features" class="feature sp-one">
+                <div class="container">
+                    <div class="sec-title center">
+                        <span>Tech Solutions</span>
+                        <h1>Protect Your Business and Home</h1>
+                        <div class="text">
+                            We provide industry-leading security solutions and value-added services in video surveillance with a complete line of CCTV, access control, burglary/fire alarms, cabling, and more. Our expertise and commitment to excellence ensure that you receive the highest level of protection and support tailored to your specific needs.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="services-block-one col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="images/resource/feature-1.png" alt>
+                                </div>
+                                <h3>DVR/NVR</h3>
+                                <div class="text">Our DVRs and NVRs offer reliable video storage solutions. DVRs are great for analog cameras, while NVRs are ideal for IP cameras, providing remote access and high-resolution recording for easy monitoring.</div>
+
+                            </div>
+                        </div>
+                        <div class="services-block-one col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="images/resource/feature-2.png" alt>
+                                </div>
+                                <h3>IP and PTZ CAMERAS</h3>
+                                <div class="text">Our IP and PTZ cameras offer high-definition video, remote access, and flexible installation. IP cameras provide clear images and network connectivity, while PTZ cameras allow dynamic monitoring and zoom capabilities.</div>
+
+                            </div>
+                        </div>
+                        <div class="services-block-one col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="images/resource/feature-3.png" alt>
+                                </div>
+                                <h3>ACCESSORIES</h3>
+                                <div class="text">Our accessories range from cables and connectors to mounts and power supplies, enhancing the functionality and reliability of your security system. Each product meets industry standards for seamless integration.</div>
 
 
-
-
-        <!-- feature section -->
-        <section id="features" class="feature sp-one">
-            <div class="container">
-                <div class="sec-title center">
-                    <span>Tech Solutons</span>
-                    <h1>Protege tu negocio y tu hogar</h1>
-                    <div class="text">
-                        Brindamos soluciones de seguridad y servicios de valor agregado líderes en la industria en video vigilancia con una línea completa de CCTV, control de acceso, alarmas contra robo / incendio, cableado y más.</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="services-block-one col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <img src="images/resource/feature-1.png" alt="">
-                            </div>
-                            <h3>DVR/NVR</h3>
-                            <div class="text">No batalle con el pinche soporte nosotros si le vamos a contestar</div>
-                        </div>
-                    </div>
-                    <div class="services-block-one col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <img src="images/resource/feature-2.png" alt="">
-                            </div>
-                            <h3>IP y PTZ CAMERAS</h3>
-                            <div class="text">Sabemos lo que hacemos y si no no lo inventamos</div>
-                        </div>
-                    </div>
-                    <div class="services-block-one col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <img src="images/resource/feature-3.png" alt="">
-                            </div>
-                            <h3>ACCESORIOS</h3>
-                            <div class="text">Aliquet pharetra pulvinar acumsan neque uisque <br>diam velit risus aenean bibendum nostra nullam <br>purus aorem ipsum dolor sit amet.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
+            
+            
 
-
-        <!-- call to action -->
-        <section class="download-app theme-bg bg-shape-two sp-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="mockup-five">
-                            <div class="image"><img src="images/resource/mockup-4.png" alt=""></div>
+            <!-- call to action -->
+            <section class="download-app theme-bg bg-shape-two sp-one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="mockup-five">
+                                <div class="image"><img
+                                        src="images/resource/mockup-4.png"
+                                        alt></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-8 col-md-12">
-                        <div class="action-text">
-                            <div class="text"><span>Tech Solutons</span></div>
-                            <h1>Tarjetas de Regalo</h1>
-                            <div class="text">
-                                Aunque las tarjetas de regalo a menudo se establecen en una cantidad específica, muchos clientes terminarán gastando más. La tarjeta de regalo alienta a los clientes a ingresar a la tienda y buscar productos. Una vez que hayan comenzado a comprar, es
-                                probable que terminen encontrando un producto que cuesta un poco más que el valor de la tarjeta de regalo. Pagar solo una fracción del precio es aún mejor que pagar en su totalidad, y su cliente se irá satisfecho.</div>
-                            <div class="link-btn">
-                                <!-- <a href="#" class="theme-btn btn-style-eighteen">
+                        <div class="col-lg-8 col-md-12">
+                            <div class="action-text">
+                                <div class="text"><span>Tech
+                                        Solutons</span></div>
+                                <h1>Gift Cards</h1>
+                                <div class="text">
+                                    Although gift cards are often set to a specific amount, many customers will end up spending more. The gift card encourages customers to enter the store and browse products. Once they start shopping, they are likely to find a product that costs a bit more than the value of the gift card. Paying only a fraction of the price is still better than paying in full, and your customer will leave satisfied.
+                                </div>
+                                <div class="link-btn">
+                                    <!-- <a href="#" class="theme-btn btn-style-eighteen">
                                     <p>Available On</p><span>Google Play</span></a>
                                 <a href="#" class="theme-btn btn-style-ninteen">
                                     <p>Available On</p>Apple Store</a> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Screenshot -->
-        <section id="screenshots" class="screenshot-section sp-one grey-deep-bg bg-shape">
-            <div class="container">
-                <div class="sec-title center">
-                    <span>Tech Solutons</span>
-                    <h1>Clientes Satisfechos</h1>
-                    <div class="text">Aqui van un chingo de clientes</div>
-                </div>
-                <div class="text mb-50 text-center">Nos comprometemos con nuestros clientes desde el primer dia blablabla</div>
-
-                <div class="four-item-carousel owl-carousel owl-theme owl-dot-none owl-nav-style-one">
-
-
-                    <!-- column -->
-                    <!-- <div class="screenshot-column">
-                        <div class="image"><img src="images/customers/birute_peruvian_cusine.png" alt=""></div>
-                    </div> -->
-                    <!-- column -->
-                    <div class="screenshot-column">
-                        <div class="image"><img src="images/customers/sotos_cantina.png" alt=""></div>
-                    </div>
-                    <!-- column -->
-                    <div class="screenshot-column">
-                        <div class="image"><img src="images/customers/taqueria_potrillos3.png" alt=""></div>
-                    </div>
-                    <!-- column -->
-                    <div class="screenshot-column">
-                        <div class="image"><img src="images/customers/rancho_palomas.png" alt=""></div>
-                    </div>
-                    <!-- column -->
-                    <div class="screenshot-column">
-                        <div class="image"><img src="images/resource/screenshot-1.png" alt=""></div>
-                    </div>
-                     <!-- column -->
-                     <div class="screenshot-column">
-                        <div class="image"><img src="images/resource/screenshot-1.png" alt=""></div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </section>
-
-
-
-
-
-
-
-
-        <!-- Contact information -->
-        <section class="contact-info sp-one">
-            <div class="container">
-                <div class="sec-title center">
-                    <span>Tech Solutons</span>
-                    <h1>Ponte en contacto con nosotros</h1>
-                    <div class="text">Sea uno de nuestros clientes satisfechos</div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <div class="info-box-one">
-                            <div class="icon-box"><span class="flaticon-technology"></span></div>
-                            <ul>
-                                <li>+1 (281) 707 0121</li>
-                                <li>
-                                    <p>Telefono de Ventas</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <div class="info-box-one">
-                            <div class="icon-box"><span class="flaticon-technology"></span></div>
-                            <ul>
-                                <li>+1 (346) 813 5029</li>
-                                <li>
-                                    <p>Telefono de Soporte</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <div class="info-box-one">
-                            <div class="icon-box"><span class="flaticon-open-envelope"></span></div>
-                            <ul>
-                                <li style="font-size: 17px; text-transform: none;">techsolutionslr@hotmail.com</li>
-                                <li>
-                                    <p>Mandanos un Correo</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Main Footer-->
-        <footer class="main-footer">
-
-            <!--Footer Bottom-->
-            <div class="footer-bottom text-center black-bg">
+            <!-- Screenshot -->
+            <section id="screenshots"
+                class="screenshot-section sp-one grey-deep-bg bg-shape">
                 <div class="container">
-                    <div class="clearfix">
-                        <div class="column text-center">
-                            <div class="footer-copyright">©2020 Tech Solutons. All Rights Reserved.</div>
+                    <div class="sec-title center">
+                        <span>Tech Solutons</span>
+                        <h1>Satisfied Customers
+                        </h1>
+                        
+                    </div>
+                    <div class="text mb-50 text-center">Who doesn’t love a good deal? Our gift cards turn shopping into a treasure hunt! Let your customers find their perfect product and leave with a smile, knowing they scored a great deal.
+
+                    </div>
+
+                    <div
+                        class="four-item-carousel owl-carousel owl-theme owl-dot-none owl-nav-style-one">
+
+                       
+                        <!-- column -->
+                        <div class="screenshot-column">
+                            <div class="image"><img
+                                    src="images/customers/sotos_cantina.png"
+                                    alt></div>
+                        </div>
+                        <!-- column -->
+                        <div class="screenshot-column">
+                            <div class="image"><img
+                                    src="images/customers/taqueria_potrillos3.png"
+                                    alt></div>
+                        </div>
+                        <!-- column -->
+                        <div class="screenshot-column">
+                            <div class="image"><img
+                                    src="images/customers/rancho_palomas.png"
+                                    alt></div>
+                        </div>
+                        <!-- column -->
+                        <div class="screenshot-column">
+                            <div class="image"><img
+                                    src="images/resource/screenshot-1.png"
+                                    alt></div>
+                        </div>
+                        <!-- column -->
+                        <div class="screenshot-column">
+                            <div class="image"><img
+                                    src="images/resource/screenshot-1.png"
+                                    alt></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Contact information -->
+            <section class="contact-info sp-one">
+                <div class="container">
+                    <div class="sec-title center">
+                        <span>Tech Solutons</span>
+                        <h1>Get in Touch with Us</h1>
+                        <div class="text">Become One of Our Satisfied Customers</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="info-box-one">
+                                <div class="icon-box"><span
+                                        class="flaticon-technology"></span></div>
+                                <ul>
+                                    <li>+1 (281) 707 0121</li>
+                                    <li>
+                                        <p>Sales Phone</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="info-box-one">
+                                <div class="icon-box"><span
+                                        class="flaticon-technology"></span></div>
+                                <ul>
+                                    <li>+1 (346) 813 5029</li>
+                                    <li>
+                                        <p>Support Phone</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="info-box-one">
+                                <div class="icon-box"><span
+                                        class="flaticon-open-envelope"></span></div>
+                                <ul>
+                                    <li
+                                        style="font-size: 17px; text-transform: none;">techsolutionslr@hotmail.com</li>
+                                    <li>
+                                        <p>Send Us an Email</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-        <!--Main Footer-->
+            </section>
 
-    </div>
-    <!--End pagewrapper-->
+            <!--Main Footer-->
+            <footer class="main-footer">
 
-    <!--Scroll to top-->
-    <!-- <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-arrow-up"></span></div> -->
-    <script src="js/jquery.js"></script>
+                <!--Footer Bottom-->
+                <div class="footer-bottom text-center black-bg">
+                    <div class="container">
+                        <div class="clearfix">
+                            <div class="column text-center">
+                                <div class="footer-copyright">©2020 Tech
+                                    Solutons. All Rights Reserved.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--Main Footer-->
 
-    <!--Revolution Slider-->
-    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="js/main-slider-script.js"></script>
+        </div>
+        <!--End pagewrapper-->
 
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/validate.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-media.js"></script>
-    <script src="js/appear.js"></script>
-    <script src="js/bubble-app.js"></script>
-    <!--Google Map APi Key-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
-    <script src="js/gmaps.js"></script>
-    <script src="js/map-script.js"></script>
-    <script src="js/script.js"></script>
+        <!--Scroll to top-->
+        <!-- <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-arrow-up"></span></div> -->
+        <script src="js/jquery.js"></script>
 
-</body>
+        <!--Revolution Slider-->
+        <script
+            src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script
+            src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script
+            src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="js/main-slider-script.js"></script>
+
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/validate.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/jquery.fancybox-media.js"></script>
+        <script src="js/appear.js"></script>
+        <script src="js/bubble-app.js"></script>
+        <!--Google Map APi Key-->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+        <script src="js/gmaps.js"></script>
+        <script src="js/map-script.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
 
 </html>

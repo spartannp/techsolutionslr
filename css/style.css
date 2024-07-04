@@ -217,9 +217,10 @@ li {
 }
 
 .theme-bg {
-    background-image: -moz-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
+    /* background-image: -moz-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
-    background-image: -ms-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%); */
+    background-color: #FF0000;
 }
 
 
@@ -1862,9 +1863,10 @@ img {
 .main-menu.fixed-menu {
     z-index: 999;
     position: fixed;
-    background-image: -moz-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
+    /* background-image: -moz-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
-    background-image: -ms-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%); */
+    background-color: #FFFFFF;
     box-shadow: 0 0 11px 2px #00000012;
     -ms-animation-name: fadeInDown;
     -moz-animation-name: fadeInDown;
@@ -1889,6 +1891,7 @@ img {
 }
 
 .main-menu {
+    background-color: #FFFFFF;
     position: absolute;
     width: 100%;
     left: 0;
@@ -1927,7 +1930,7 @@ img {
 
 .main-menu .navbar-nav>li>a.active,
 .main-menu .navbar-nav>li>a:hover {
-    color: #ff1c32;
+    color: #FF0000;
 }
 
 .main-menu .outer-box {
@@ -1937,8 +1940,8 @@ img {
 }
 
 .main-menu .outer-box .btn-style-two {
-    background: #fff;
-    color: #222;
+    background: #ff1c32;
+    color: #FFF;
     border-color: #fff;
     box-shadow: 0 0 44px 10px #00000021;
 }
@@ -2078,7 +2081,7 @@ img {
     position: relative;
     font-size: 18px;
     font-weight: 500;
-    color: #000;
+    color: #FFF;
     line-height: 1.7em;
 }
 
@@ -2102,7 +2105,7 @@ img {
 
 .main-slider .white-heading {
     position: relative;
-    color: #000;
+    color: #FFF;
     border: 0px;
     padding: 0px;
     line-height: 1.2em;
@@ -2290,9 +2293,10 @@ img {
 .services-block-three .inner .icon-box:before {
     position: absolute;
     content: '';
-    background-image: -moz-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
+    background-color: #FF0000;
+    /* background-image: -moz-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
-    background-image: -ms-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%); */
     left: 0;
     top: 0;
     width: 100%;
@@ -2580,7 +2584,7 @@ img {
 }
 
 .call-to-action .text {
-    color: #000;
+    color: #FFF;
     font-weight: 400;
     margin-left: 60px;
 }
@@ -2596,12 +2600,13 @@ img {
 }
 
 .call-to-action h1 {
-    color: #000;
+    color: #FFF;
     font-size: 48px;
     font-weight: 300;
     line-height: 50px;
     margin-bottom: 40px;
     margin-top: 10px;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .mockup-four {
@@ -3237,7 +3242,7 @@ img {
 
 .download-app .text span {
     position: relative;
-    color: #000;
+    color: #FFF;
     font-size: 12px;
     margin-left: 30px;
 }
@@ -3265,7 +3270,7 @@ img {
 }
 
 .download-app h1 {
-    color: #000;
+    color: #FFF;
     font-size: 48px;
     font-weight: 300;
     line-height: 50px;
@@ -3274,7 +3279,7 @@ img {
 }
 
 .download-app .text {
-    color: #000;
+    color: #FFF;
 }
 
 .download-app .link-btn {
